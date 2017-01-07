@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding> 
+  <p>
+    ayyyyy this is a new page
+  </p>
+</ion-content>
+
+<!--Side bar for setRoot -->
+<ion-menu [content]="mycontent">
+  <ion-content>
+    <ion-item>
+     Name
+    </ion-item>
+    <ion-item>
+     Other stuff
+    </ion-item>
+   
+  </ion-content>
+</ion-menu>
+<ion-nav #mycontent></ion-nav>
