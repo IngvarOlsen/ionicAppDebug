@@ -29,16 +29,9 @@ export class HomePage {
     this.navCtrl.pop();
   }
 
-  //The set root sort of acts up, 
-  //if there is a seperate slider for that pag
-  pushAndRoot(){
-     this.navCtrl.push(TestPage);
+  //What I just went with instead of poping and pushing
+  setRootTest(){
      this.navCtrl.setRoot(TestPage); 
-  }
-
-  rootAndPush(){
-     this.navCtrl.setRoot(TestPage); 
-     this.navCtrl.push(TestPage);    
   }
 }
 

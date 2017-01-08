@@ -1,5 +1,5 @@
 
-# Ionic 2 testing 
+# Just a Ionic 2 testing thing
 
-
+Pls ignore
 
